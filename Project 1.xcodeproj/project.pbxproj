@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1528B1F92007FC1E009E78DE /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1528B1F72007FC1E009E78DE /* Game.cpp */; };
+		1528B1FC2007FECE009E78DE /* History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1528B1FA2007FECE009E78DE /* History.cpp */; };
 		157F49C72006936700956D3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157F49C62006936700956D3B /* main.cpp */; };
+		157F49CF2007E92800956D3B /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157F49CE2007E92800956D3B /* utilities.cpp */; };
+		157F49D22007EF5900956D3B /* City.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157F49D02007EF5900956D3B /* City.cpp */; };
+		157F49D52007EFF000956D3B /* Flatulan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157F49D32007EFF000956D3B /* Flatulan.cpp */; };
+		157F49D72007F11C00956D3B /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157F49D62007F11C00956D3B /* Player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1528B1F72007FC1E009E78DE /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		1528B1F82007FC1E009E78DE /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1528B1FA2007FECE009E78DE /* History.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = History.cpp; sourceTree = "<group>"; };
+		1528B1FB2007FECE009E78DE /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
 		157F49C32006936700956D3B /* Project 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157F49C62006936700956D3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		157F49CD2006AD2A00956D3B /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		157F49CE2007E92800956D3B /* utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		157F49D02007EF5900956D3B /* City.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = City.cpp; sourceTree = "<group>"; };
+		157F49D12007EF5900956D3B /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		157F49D32007EFF000956D3B /* Flatulan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flatulan.cpp; sourceTree = "<group>"; };
+		157F49D42007EFF000956D3B /* Flatulan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flatulan.h; sourceTree = "<group>"; };
+		157F49D62007F11C00956D3B /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		157F49D82007F12400956D3B /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				157F49C62006936700956D3B /* main.cpp */,
+				157F49CD2006AD2A00956D3B /* globals.h */,
+				157F49CE2007E92800956D3B /* utilities.cpp */,
+				157F49D02007EF5900956D3B /* City.cpp */,
+				157F49D12007EF5900956D3B /* City.h */,
+				157F49D32007EFF000956D3B /* Flatulan.cpp */,
+				157F49D42007EFF000956D3B /* Flatulan.h */,
+				157F49D62007F11C00956D3B /* Player.cpp */,
+				157F49D82007F12400956D3B /* Player.h */,
+				1528B1F72007FC1E009E78DE /* Game.cpp */,
+				1528B1F82007FC1E009E78DE /* Game.h */,
+				1528B1FA2007FECE009E78DE /* History.cpp */,
+				1528B1FB2007FECE009E78DE /* History.h */,
 			);
 			path = "Project 1";
 			sourceTree = "<group>";
@@ -119,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157F49D52007EFF000956D3B /* Flatulan.cpp in Sources */,
+				157F49D72007F11C00956D3B /* Player.cpp in Sources */,
+				157F49CF2007E92800956D3B /* utilities.cpp in Sources */,
 				157F49C72006936700956D3B /* main.cpp in Sources */,
+				157F49D22007EF5900956D3B /* City.cpp in Sources */,
+				1528B1F92007FC1E009E78DE /* Game.cpp in Sources */,
+				1528B1FC2007FECE009E78DE /* History.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
